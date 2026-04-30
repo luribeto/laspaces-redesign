@@ -1,0 +1,260 @@
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 60vh;
+  background: var(--ink);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-top: 120px;
+}
+
+.heroBg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.heroIllustration {
+  position: absolute;
+  inset: 0;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+
+  svg,
+  :global(svg) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 64px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--ff-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(242, 237, 227, 0.45);
+  margin-bottom: 32px;
+  transition: color 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--gold);
+  }
+}
+
+.heroNum {
+  font-family: var(--ff-display);
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+
+.heroTitle {
+  font-family: var(--ff-display);
+  font-size: clamp(38px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1;
+  color: var(--cream);
+  margin-bottom: 20px;
+
+  em {
+    font-style: italic;
+    color: var(--earth-light);
+  }
+}
+
+.heroYears {
+  font-family: var(--ff-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(242, 237, 227, 0.45);
+}
+
+/* Content */
+.content {
+  background: var(--cream);
+  padding: 80px 0;
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.illustrationBlock {
+  position: sticky;
+  top: 100px;
+}
+
+.illustrationWrap {
+  border: 1px solid rgba(28, 24, 18, 0.1);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+
+  svg,
+  :global(svg) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+.textBlock {
+  padding-top: 4px;
+}
+
+.descriptionLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--ff-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--earth);
+  margin-bottom: 28px;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 1px;
+    background-color: var(--earth);
+    flex-shrink: 0;
+  }
+}
+
+.descriptionTitle {
+  font-family: var(--ff-display);
+  font-size: clamp(22px, 2.5vw, 32px);
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 36px;
+}
+
+.descriptionText {
+  font-family: var(--ff-body);
+  font-size: clamp(15px, 1.4vw, 17px);
+  line-height: 1.9;
+  color: rgba(28, 24, 18, 0.7);
+
+  p + p {
+    margin-top: 22px;
+  }
+}
+
+.ctaWrap {
+  margin-top: 48px;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  background: var(--earth);
+  color: var(--cream);
+  font-family: var(--ff-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--earth-light);
+  }
+}
+
+/* Pagination */
+.pagination {
+  background: var(--ink-soft);
+  padding: 48px 0;
+}
+
+.paginationInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.paginationLink {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+  max-width: 260px;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.paginationDir {
+  font-family: var(--ff-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(242, 237, 227, 0.35);
+}
+
+.paginationTitle {
+  font-family: var(--ff-display);
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cream);
+}
+
+.paginationArrow {
+  font-size: 20px;
+  color: var(--gold);
+  align-self: center;
+  flex-shrink: 0;
+}
+
+@media (max-width: 900px) {
+  .contentGrid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .illustrationBlock {
+    position: static;
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .paginationInner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
