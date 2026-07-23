@@ -35,8 +35,8 @@ const jsonLd = {
     availableLanguage: 'Spanish',
   },
   sameAs: [
-    'https://www.facebook.com/laspaces',
-    'https://twitter.com/laspaces',
+    'https://www.facebook.com/las.paces.col',
+    'https://x.com/Las_Paces',
   ],
 }
 

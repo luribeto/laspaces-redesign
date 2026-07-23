@@ -154,7 +154,7 @@ export default function Contact() {
 
             <div className={styles.socials}>
               <a
-                href="https://www.facebook.com/laspaces"
+                href="https://www.facebook.com/las.paces.col"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialBtn}
@@ -163,7 +163,7 @@ export default function Contact() {
                 Fb
               </a>
               <a
-                href="https://twitter.com/laspaces"
+                href="https://x.com/Las_Paces"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialBtn}
