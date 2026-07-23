@@ -13,7 +13,7 @@ const jsonLd = {
     'Consultoría especializada en atención psicosocial, daño psicosocial, derechos humanos y construcción de paz.',
   url: 'https://laspaces.co',
   foundingDate: '2006',
-  areaServed: ['Colombia', 'México'],
+  areaServed: ['Colombia'],
   founder: {
     '@type': 'Person',
     name: 'Lina Rondón Daza',
@@ -29,8 +29,8 @@ const jsonLd = {
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+57-315-836-9832',
-    email: 'contacto@laspaces.co',
+    telephone: '+57-320-343-3353',
+    email: 'laspaces.sas@gmail.com',
     contactType: 'customer service',
     availableLanguage: 'Spanish',
   },

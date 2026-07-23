@@ -126,19 +126,19 @@ export default function Contact() {
               <div className={styles.contactItem}>
                 <span className={styles.contactItemLabel}>Teléfono</span>
                 <a
-                  href="tel:+573158369832"
+                  href="tel:+573203433353"
                   className={styles.contactItemValue}
                 >
-                  +57 315 836 9832
+                  +57 320 3433353
                 </a>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactItemLabel}>Correo</span>
                 <a
-                  href="mailto:contacto@laspaces.co"
+                  href="mailto:laspaces.sas@gmail.com"
                   className={styles.contactItemValue}
                 >
-                  contacto@laspaces.co
+                  laspaces.sas@gmail.com
                 </a>
               </div>
               <div className={styles.contactItem}>
@@ -147,7 +147,7 @@ export default function Contact() {
                   className={styles.contactItemValue}
                   style={{ cursor: 'default' }}
                 >
-                  Colombia · México
+                  Colombia
                 </span>
               </div>
             </div>
