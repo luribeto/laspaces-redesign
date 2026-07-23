@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styles from './Navbar.module.scss'
 
-const logoSrc = '/logo.svg'
+const logoSrc = '/logo-5-side-cropped.svg'
 
 const navLinks = [
   { label: 'Servicios', href: '#servicios' },

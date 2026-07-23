@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './Footer.module.scss'
 
-const logoFooterSrc = '/logo-footer.svg'
+const logoFooterSrc = '/logo-5-side-mono-cropped.svg'
 
 export default function Footer() {
   const year = new Date().getFullYear()
