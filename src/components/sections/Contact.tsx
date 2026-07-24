@@ -27,10 +27,10 @@ export default function Contact() {
 
     const formData = new FormData(formRef.current)
     const templateParams = {
-      from_name: formData.get('from_name'),
-      from_phone: formData.get('from_phone'),
-      from_email: formData.get('from_email'),
-      message: formData.get('message'),
+      name: String(formData.get('from_name') ?? ''),
+      phone: String(formData.get('from_phone') ?? ''),
+      email: String(formData.get('from_email') ?? ''),
+      message: String(formData.get('message') ?? ''),
     }
 
     try {
