@@ -57,14 +57,10 @@ export default async function ServicePage({ params }: Props) {
             fill
             priority
             sizes="100vw"
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'cover', objectPosition: service.slug === 'protocolos' ? 'center' : service.slug === 'agotamiento' ? 'center 30%' : service.slug === 'mediacion' ? 'center 30%' : service.slug === 'asesorias' ? 'center 70%' : 'top' }}
           />
         </div>
-        <div
-          className={styles.heroIllustration}
-          dangerouslySetInnerHTML={{ __html: svgContent }}
-          aria-hidden="true"
-        />
+        <div className={`${styles.heroOverlay}${service.slug === 'protocolos' ? ` ${styles.heroOverlayDark}` : ''}`} aria-hidden="true" />
 
         <div className={`wrapper ${styles.heroContent}`}>
           <Link href="/#servicios" className={styles.backLink}>

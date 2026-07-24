@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice">
+  <defs><linearGradient id="as-win" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9962a" stop-opacity=".22"></stop><stop offset="100%" stop-color="#c9962a" stop-opacity="0"></stop></linearGradient></defs>
+  <rect width="600" height="420" fill="#f2ede3"></rect>
+  <g transform="translate(70,40)" opacity=".8">
+    <rect x="0" y="0" width="150" height="120" fill="url(#as-win)"></rect>
+    <rect x="0" y="0" width="150" height="120" fill="none" stroke="#1c1812" stroke-opacity=".18" stroke-width="2"></rect>
+    <line x1="75" y1="0" x2="75" y2="120" stroke="#1c1812" stroke-opacity=".15" stroke-width="2"></line>
+    <line x1="0" y1="60" x2="150" y2="60" stroke="#1c1812" stroke-opacity=".15" stroke-width="2"></line>
+  </g>
+  <path d="M0,0 Q20,210 0,420" stroke="#1c1812" stroke-opacity=".05" stroke-width="30" fill="none"></path>
+  <path d="M600,0 Q580,210 600,420" stroke="#1c1812" stroke-opacity=".05" stroke-width="30" fill="none"></path>
+  <line x1="0" y1="372" x2="600" y2="372" stroke="#1c1812" stroke-opacity=".1" stroke-width="1.5"></line>
+  <g transform="translate(508,300)" opacity=".7">
+    <path d="M-14,40 L-10,10 L10,10 L14,40 Z" fill="#9b4923" opacity=".4"></path>
+    <path d="M0,10 C-14,0 -18,-24 -6,-30 C-2,-20 -2,-8 0,10" fill="#2d5c33"></path>
+    <path d="M0,10 C14,0 18,-26 4,-34 C0,-22 0,-8 0,10" fill="#1d3d22"></path>
+  </g>
+  <g transform="translate(182,220) scale(1.4,1.4)">
+    <path d="M 0,-56 C 14,-56 26,-53 30,-42 C 33,-34 33,-26 30,-20 C 27,-13 24,-10 24,-2 C 24,6 26,10 27,18 C 29,30 28,44 25,58 C 24,64 22,68 18,70 L -18,70 C -22,68 -24,64 -25,58 C -28,44 -29,30 -27,18 C -26,10 -24,6 -24,-2 C -24,-10 -27,-13 -30,-20 C -33,-26 -33,-34 -30,-42 C -26,-53 -14,-56 0,-56 Z" fill="#1d3d22" opacity="0.85"></path><circle cx="14" cy="-14" r="18" fill="#1d3d22" opacity="0.85"></circle><path d="M 9.5,-6.2 L 49.3,16.8 A 9,9 0 1 0 58.3,1.2 L 18.5,-21.8 A 9,9 0 1 0 9.5,-6.2 Z" fill="#1d3d22" opacity="0.85"></path>
+    <circle cx="0" cy="-78" r="19" fill="#1d3d22" opacity="0.85"></circle>
+  </g>
+  <ellipse cx="182" cy="358" rx="46" ry="7" fill="#000" opacity=".14"></ellipse>
+  <g transform="translate(420,230) scale(1.35,1.35)">
+    <path d="M 0,-56 C 14,-56 26,-53 30,-42 C 33,-34 33,-26 30,-20 C 27,-13 24,-10 24,-2 C 24,6 26,10 27,18 C 29,30 28,44 25,58 C 24,64 22,68 18,70 L -18,70 C -22,68 -24,64 -25,58 C -28,44 -29,30 -27,18 C -26,10 -24,6 -24,-2 C -24,-10 -27,-13 -30,-20 C -33,-26 -33,-34 -30,-42 C -26,-53 -14,-56 0,-56 Z" fill="#9b4923" opacity="0.8"></path>
+    <circle cx="0" cy="-78" r="19" fill="#9b4923" opacity="0.8"></circle>
+  </g>
+  <ellipse cx="420" cy="358" rx="42" ry="7" fill="#000" opacity=".12"></ellipse>
+  <rect x="228" y="266" width="164" height="10" rx="2" fill="#1c1812" opacity=".22"></rect>
+  <rect x="242" y="276" width="6" height="56" fill="#1c1812" opacity=".13"></rect>
+  <rect x="366" y="276" width="6" height="56" fill="#1c1812" opacity=".13"></rect>
+  <g transform="translate(280,232) rotate(-4)">
+    <rect x="0" y="0" width="70" height="50" fill="#e8e0d0" stroke="#1c1812" stroke-opacity=".2" stroke-width="1.4"></rect>
+    <line x1="10" y1="12" x2="52" y2="12" stroke="#1c1812" stroke-opacity=".2" stroke-width="1.4"></line>
+    <line x1="10" y1="22" x2="42" y2="22" stroke="#1c1812" stroke-opacity=".15" stroke-width="1.4"></line>
+    <rect x="8" y="30" width="40" height="14" fill="none" stroke="#9b4923" stroke-width="1.6" opacity=".75" transform="rotate(-8 28 37)"></rect>
+    <text x="28" y="41" font-family="Georgia,serif" font-size="8" fill="#9b4923" text-anchor="middle" opacity=".85" transform="rotate(-8 28 37)">CONFIDENCIAL</text>
+  </g>
+  <g transform="translate(392,140)" opacity=".4">
+    <rect x="-13" y="-2" width="26" height="20" rx="3" fill="none" stroke="#9b4923" stroke-width="2"></rect>
+    <path d="M-7,-2 Q-7,-14 7,-14 Q21,-14 21,-2" fill="none" stroke="#9b4923" stroke-width="2" transform="translate(-7,0)"></path>
+    <circle cx="0" cy="8" r="2.6" fill="#9b4923"></circle>
+  </g>
+  <text x="530" y="400" font-size="110" font-family="Georgia,serif" fill="#9b4923" opacity=".07">VI</text>
+</svg>

@@ -59,7 +59,7 @@ export const services: Service[] = [
       'Ofrecemos procesos formativos y de acompañamiento para equipos de salud mental, trabajadores sociales, operadores judiciales, defensores de derechos humanos y cualquier profesional que brinde atención directa a personas en situación de vulnerabilidad.',
       'Nuestros programas combinan marcos teóricos actualizados con herramientas prácticas de autocuidado, regulación emocional y construcción de resiliencia organizacional.',
     ],
-    backImg: '/images/back-agotamiento.png',
+    backImg: '/images/back-estrategias.png',
     previewImg: '/portfolio/in-agotamiento.png',
     illustrationKey: 'agotamiento',
   },

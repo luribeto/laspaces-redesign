@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="p-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28,0 L0,0 0,28" fill="none" stroke="#1c1812" stroke-opacity=".06" stroke-width="1"></path></pattern>
+    <linearGradient id="p-doc" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#e8e0d0"></stop></linearGradient>
+  </defs>
+  <rect width="600" height="420" fill="#f2ede3"></rect>
+  <rect width="600" height="420" fill="url(#p-grid)"></rect>
+  <g>
+    <rect x="188" y="76" width="230" height="270" fill="#e8e0d0" opacity=".6" transform="rotate(-3 300 210)"></rect>
+    <rect x="182" y="70" width="230" height="270" fill="#dcd2ba" opacity=".7" transform="rotate(2 300 205)"></rect>
+    <rect x="176" y="58" width="240" height="278" fill="url(#p-doc)" stroke="#1c1812" stroke-opacity=".2" stroke-width="1.5"></rect>
+  </g>
+  <g transform="translate(176,58)">
+    <line x1="26" y1="34" x2="214" y2="34" stroke="#1c1812" stroke-opacity=".55" stroke-width="2.5"></line>
+    <line x1="26" y1="52" x2="180" y2="52" stroke="#1c1812" stroke-opacity=".18" stroke-width="1.4"></line>
+    <line x1="26" y1="66" x2="196" y2="66" stroke="#1c1812" stroke-opacity=".14" stroke-width="1.4"></line>
+    <rect x="26" y="86" width="214" height="56" fill="none" stroke="#9b4923" stroke-width="1.6" stroke-opacity=".6"></rect>
+    <line x1="40" y1="102" x2="150" y2="102" stroke="#9b4923" stroke-opacity=".45" stroke-width="1.4"></line>
+    <line x1="40" y1="116" x2="180" y2="116" stroke="#9b4923" stroke-opacity=".3" stroke-width="1.4"></line>
+    <line x1="40" y1="130" x2="130" y2="130" stroke="#9b4923" stroke-opacity=".3" stroke-width="1.4"></line>
+    <line x1="26" y1="168" x2="196" y2="168" stroke="#1c1812" stroke-opacity=".14" stroke-width="1.4"></line>
+    <line x1="26" y1="182" x2="214" y2="182" stroke="#1c1812" stroke-opacity=".14" stroke-width="1.4"></line>
+    <line x1="26" y1="196" x2="170" y2="196" stroke="#1c1812" stroke-opacity=".14" stroke-width="1.4"></line>
+    <rect x="26" y="224" width="10" height="10" fill="none" stroke="#1d3d22" stroke-width="1.6"></rect><path d="M28,229 L31,232 L36,226" fill="none" stroke="#1d3d22" stroke-width="1.6"></path><rect x="26" y="242" width="10" height="10" fill="none" stroke="#1d3d22" stroke-width="1.6"></rect><path d="M28,247 L31,250 L36,244" fill="none" stroke="#1d3d22" stroke-width="1.6"></path><rect x="26" y="260" width="10" height="10" fill="none" stroke="#1d3d22" stroke-width="1.6"></rect><path d="M28,265 L31,268 L36,262" fill="none" stroke="#1d3d22" stroke-width="1.6"></path>
+    <line x1="26" y1="262" x2="26" y2="270" stroke="#9b4923" stroke-width="1"></line>
+    <line x1="240" y1="262" x2="240" y2="270" stroke="#9b4923" stroke-width="1"></line>
+    <line x1="26" y1="266" x2="240" y2="266" stroke="#9b4923" stroke-width="1"></line>
+    <text x="133" y="280" font-family="Georgia,serif" font-size="10" fill="#9b4923" text-anchor="middle" opacity=".7">PROTOCOLO</text>
+  </g>
+  <g transform="translate(478,236) scale(-1.15,1.15)">
+    <path d="M 0,-56 C 14,-56 26,-53 30,-42 C 33,-34 33,-26 30,-20 C 27,-13 24,-10 24,-2 C 24,6 26,10 27,18 C 29,30 28,44 25,58 C 24,64 22,68 18,70 L -18,70 C -22,68 -24,64 -25,58 C -28,44 -29,30 -27,18 C -26,10 -24,6 -24,-2 C -24,-10 -27,-13 -30,-20 C -33,-26 -33,-34 -30,-42 C -26,-53 -14,-56 0,-56 Z" fill="#1d3d22" opacity="0.85"></path><circle cx="14" cy="-14" r="18" fill="#1d3d22" opacity="0.85"></circle><path d="M 9.5,-6.2 L 49.3,16.8 A 9,9 0 1 0 58.3,1.2 L 18.5,-21.8 A 9,9 0 1 0 9.5,-6.2 Z" fill="#1d3d22" opacity="0.85"></path>
+    <circle cx="0" cy="-78" r="19" fill="#1d3d22" opacity="0.85"></circle>
+  </g>
+  <rect x="424" y="318" width="140" height="7" rx="2" fill="#1c1812" opacity=".28"></rect>
+  <rect x="438" y="325" width="5" height="42" fill="#1c1812" opacity=".16"></rect>
+  <rect x="538" y="325" width="5" height="42" fill="#1c1812" opacity=".16"></rect>
+  <g transform="translate(520,300)" opacity=".5">
+    <circle r="16" fill="none" stroke="#1c1812" stroke-width="1.4"></circle>
+    <line x1="0" y1="0" x2="12" y2="-10" stroke="#1c1812" stroke-width="1.6"></line>
+    <line x1="0" y1="0" x2="-6" y2="14" stroke="#1c1812" stroke-width="1.6"></line>
+  </g>
+  <text x="72" y="380" font-size="130" font-family="Georgia,serif" fill="#1d3d22" opacity=".06">II</text>
+</svg>

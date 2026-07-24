@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="d-vig" cx="50%" cy="42%" r="65%"><stop offset="0%" stop-color="#241d15"></stop><stop offset="100%" stop-color="#140f0a"></stop></radialGradient>
+    <radialGradient id="d-glow" cx="50%" cy="40%" r="30%"><stop offset="0%" stop-color="#c9962a" stop-opacity=".22"></stop><stop offset="100%" stop-color="#c9962a" stop-opacity="0"></stop></radialGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#d-vig)"></rect>
+  <g fill="none" stroke="#9b4923" stroke-opacity=".14"><ellipse cx="300" cy="180" rx="260" ry="150"></ellipse><ellipse cx="300" cy="180" rx="205" ry="115"></ellipse><ellipse cx="300" cy="180" rx="150" ry="82"></ellipse></g>
+  <rect width="600" height="420" fill="url(#d-glow)"></rect>
+  <g stroke="#c9962a" stroke-opacity=".07">
+    <line x1="0" y1="105" x2="600" y2="105"></line><line x1="0" y1="210" x2="600" y2="210"></line><line x1="0" y1="315" x2="600" y2="315"></line>
+    <line x1="150" y1="0" x2="150" y2="420"></line><line x1="300" y1="0" x2="300" y2="420"></line><line x1="450" y1="0" x2="450" y2="420"></line>
+  </g>
+  <g transform="translate(524,72)" opacity=".5">
+    <circle r="26" fill="none" stroke="#c9962a" stroke-width="1"></circle>
+    <path d="M0,-26 L4,-6 L0,0 L-4,-6 Z" fill="#c9962a"></path><path d="M0,26 L4,6 L0,0 L-4,6 Z" fill="#7a7060"></path>
+    <path d="M26,0 L6,4 L0,0 L6,-4 Z" fill="#7a7060"></path><path d="M-26,0 L-6,4 L0,0 L-6,-4 Z" fill="#7a7060"></path>
+  </g>
+  <g transform="translate(300,220) scale(1.55,1.55)">
+    <path d="M 0,-56 C 14,-56 26,-53 30,-42 C 33,-34 33,-26 30,-20 C 27,-13 24,-10 24,-2 C 24,6 26,10 27,18 C 29,30 28,44 25,58 C 24,64 22,68 18,70 L -18,70 C -22,68 -24,64 -25,58 C -28,44 -29,30 -27,18 C -26,10 -24,6 -24,-2 C -24,-10 -27,-13 -30,-20 C -33,-26 -33,-34 -30,-42 C -26,-53 -14,-56 0,-56 Z" fill="#c9962a" opacity="0.92"></path>
+    <circle cx="0" cy="-78" r="19" fill="#c9962a" opacity="0.92"></circle>
+  </g>
+  <ellipse cx="300" cy="335" rx="46" ry="7" fill="#000" opacity=".3"></ellipse>
+  
+  <line x1="300" y1="240" x2="128" y2="92" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="128" cy="92" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="128" cy="92" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="128" y="78" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">I</text>
+  
+  <line x1="300" y1="240" x2="472" y2="86" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="472" cy="86" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="472" cy="86" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="472" y="72" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">II</text>
+  
+  <line x1="300" y1="240" x2="92" y2="300" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="92" cy="300" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="92" cy="300" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="92" y="286" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">III</text>
+  
+  <line x1="300" y1="240" x2="500" y2="308" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="500" cy="308" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="500" cy="308" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="500" y="294" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">IV</text>
+  
+  <line x1="300" y1="240" x2="196" y2="368" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="196" cy="368" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="196" cy="368" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="196" y="354" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">V</text>
+  
+  <line x1="300" y1="240" x2="404" y2="372" stroke="#c9962a" stroke-opacity=".3" stroke-width="1.1" stroke-dasharray="5,5"></line>
+  <circle cx="404" cy="372" r="5.5" fill="none" stroke="#c9962a" stroke-width="1.6" opacity=".85"></circle>
+  <circle cx="404" cy="372" r="2" fill="#c9962a" opacity=".85"></circle>
+  <text x="404" y="358" font-family="Georgia,serif" font-size="13" fill="#e8e0d0" opacity=".55" text-anchor="middle">VI</text>
+  
+  <text x="42" y="400" font-size="130" font-family="Georgia,serif" fill="#9b4923" opacity=".07">I</text>
+</svg>

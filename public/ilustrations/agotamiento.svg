@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice">
+  <defs><radialGradient id="a-glow" cx="55%" cy="50%" r="50%"><stop offset="0%" stop-color="#c9962a" stop-opacity=".24"></stop><stop offset="60%" stop-color="#c9962a" stop-opacity=".06"></stop><stop offset="100%" stop-color="#140f0a" stop-opacity="0"></stop></radialGradient></defs>
+  <rect width="600" height="420" fill="#1c1812"></rect>
+  <rect width="600" height="420" fill="url(#a-glow)"></rect>
+  <g fill="none" stroke="#c9962a" stroke-opacity=".14"><circle cx="340" cy="200" r="90"></circle><circle cx="340" cy="200" r="130"></circle><circle cx="340" cy="200" r="170"></circle></g>
+  <g transform="translate(120,300)" opacity=".55" stroke="#2d5c33" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <path d="M0,60 L0,10"></path><path d="M0,30 Q-16,20 -22,4"></path><path d="M0,18 Q16,8 22,-8"></path>
+    <ellipse cx="-22" cy="4" rx="7" ry="4" fill="#2d5c33" stroke="none" transform="rotate(-30 -22 4)"></ellipse>
+    <ellipse cx="22" cy="-8" rx="7" ry="4" fill="#2d5c33" stroke="none" transform="rotate(30 22 -8)"></ellipse>
+  </g>
+  <ellipse cx="248" cy="352" rx="58" ry="8" fill="#000" opacity=".35"></ellipse>
+  <ellipse cx="356" cy="330" rx="42" ry="7" fill="#000" opacity=".3"></ellipse>
+  <g transform="translate(248,260) scale(1.4,1.4)">
+    <path d="M -5,-52 C 8,-53 20,-48 23,-38 C 25,-31 24,-24 20,-19 C 17,-13 15,-9 16,-2 C 17,6 20,11 20,19 C 20,30 15,42 6,48 L -20,45 C -26,40 -27,30 -24,21 C -22,12 -24,6 -24,-2 C -24,-9 -22,-13 -20,-18 C -18,-24 -20,-31 -17,-40 C -14,-48 -10,-51 -5,-52 Z" fill="#c9962a" opacity="0.75"></path>
+    <circle cx="-6" cy="-66" r="19" fill="#c9962a" opacity="0.75"></circle>
+  </g>
+  <g transform="translate(356,220) scale(-1.55,1.55)">
+    <path d="M 0,-56 C 14,-56 26,-53 30,-42 C 33,-34 33,-26 30,-20 C 27,-13 24,-10 24,-2 C 24,6 26,10 27,18 C 29,30 28,44 25,58 C 24,64 22,68 18,70 L -18,70 C -22,68 -24,64 -25,58 C -28,44 -29,30 -27,18 C -26,10 -24,6 -24,-2 C -24,-10 -27,-13 -30,-20 C -33,-26 -33,-34 -30,-42 C -26,-53 -14,-56 0,-56 Z" fill="#9b4923" opacity="0.95"></path><circle cx="14" cy="-14" r="18" fill="#9b4923" opacity="0.95"></circle><path d="M 9.5,-6.2 L 49.3,16.8 A 9,9 0 1 0 58.3,1.2 L 18.5,-21.8 A 9,9 0 1 0 9.5,-6.2 Z" fill="#9b4923" opacity="0.95"></path>
+    <circle cx="0" cy="-78" r="19" fill="#9b4923" opacity="0.95"></circle>
+  </g>
+  <circle cx="356" cy="200" r="52" fill="none" stroke="#c9962a" stroke-opacity=".16" stroke-width="1"></circle>
+  <circle cx="356" cy="200" r="70" fill="none" stroke="#c9962a" stroke-opacity=".1" stroke-width="1"></circle>
+  <circle cx="150" cy="110" r="3" fill="#c9962a" opacity="0.4"></circle><circle cx="120" cy="150" r="1.8" fill="#c9962a" opacity="0.4"></circle><circle cx="430" cy="90" r="2.2" fill="#c9962a" opacity="0.4"></circle><circle cx="470" cy="130" r="3.4" fill="#c9962a" opacity="0.4"></circle><circle cx="400" cy="70" r="1.6" fill="#c9962a" opacity="0.4"></circle><circle cx="500" cy="180" r="2" fill="#c9962a" opacity="0.4"></circle><circle cx="80" cy="220" r="1.6" fill="#c9962a" opacity="0.4"></circle><circle cx="520" cy="240" r="2.4" fill="#c9962a" opacity="0.4"></circle>
+  <text x="500" y="395" font-size="130" font-family="Georgia,serif" fill="#c9962a" opacity=".06">III</text>
+</svg>
