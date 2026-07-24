@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, FormEvent } from 'react'
+import { useState, useRef, FormEvent, useEffect } from 'react'
 import emailjs from '@emailjs/browser'
 import styles from './Contact.module.scss'
 
@@ -14,6 +14,10 @@ export default function Contact() {
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
 
+  useEffect(() => {
+    emailjs.init(PUBLIC_KEY)
+  }, [])
+
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
     if (!formRef.current) return
@@ -21,10 +25,16 @@ export default function Contact() {
     setSending(true)
     setError(false)
 
+    const formData = new FormData(formRef.current)
+    const templateParams = {
+      from_name: formData.get('from_name'),
+      from_phone: formData.get('from_phone'),
+      from_email: formData.get('from_email'),
+      message: formData.get('message'),
+    }
+
     try {
-      await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, {
-        publicKey: PUBLIC_KEY,
-      })
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams)
       setSuccess(true)
       formRef.current.reset()
     } catch {
