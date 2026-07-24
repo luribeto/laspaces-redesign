@@ -11,13 +11,15 @@ export interface Service {
   illustrationKey: string
 }
 
+const currentYear = new Date().getFullYear()
+
 export const services: Service[] = [
   {
     slug: 'dano',
     num: '01',
-    title: 'Daño Psicosocial',
-    shortTitle: 'Daño Psicosocial',
-    years: '19 años',
+    title: 'Caracterización del Daño Psicosocial y Daño Moral',
+    shortTitle: 'Daño Psicosocial y Moral',
+    years: `${currentYear - 2003} años`,
     description:
       'Evaluación y documentación del daño psicosocial en contextos de violaciones a derechos humanos y conflicto armado.',
     longDescription: [
@@ -34,7 +36,7 @@ export const services: Service[] = [
     num: '02',
     title: 'Protocolos de Atención Psicosocial',
     shortTitle: 'Protocolos',
-    years: '17 años',
+    years: `${currentYear - 2009} años`,
     description:
       'Diseño e implementación de protocolos institucionales para la atención psicosocial a personas víctimas.',
     longDescription: [
@@ -49,9 +51,9 @@ export const services: Service[] = [
   {
     slug: 'agotamiento',
     num: '03',
-    title: 'Agotamiento por Empatía',
-    shortTitle: 'Agotamiento',
-    years: '12 años',
+    title: 'Psicoterapia para los que Hacen la Paz',
+    shortTitle: 'Psicoterapia',
+    years: `${currentYear - 2014} años`,
     description:
       'Prevención y manejo del agotamiento por empatía en equipos que trabajan con poblaciones vulnerables y víctimas.',
     longDescription: [
@@ -68,7 +70,7 @@ export const services: Service[] = [
     num: '04',
     title: 'Mediación y Diálogo',
     shortTitle: 'Mediación',
-    years: '14 años',
+    years: `${currentYear - 2012} años`,
     description:
       'Procesos de mediación y facilitación del diálogo en contextos de conflicto social, comunitario e institucional.',
     longDescription: [
@@ -85,7 +87,7 @@ export const services: Service[] = [
     num: '05',
     title: 'Formación Especializada',
     shortTitle: 'Formación',
-    years: '19 años',
+    years: `${currentYear - 2003} años`,
     description:
       'Programas de formación especializada en atención psicosocial, derechos humanos y justicia transicional.',
     longDescription: [
@@ -102,7 +104,7 @@ export const services: Service[] = [
     num: '06',
     title: 'Asesorías Institucionales',
     shortTitle: 'Asesorías',
-    years: '19 años',
+    years: `${currentYear - 2003} años`,
     description:
       'Consultoría y asesoría especializada a instituciones públicas, privadas y organismos internacionales.',
     longDescription: [

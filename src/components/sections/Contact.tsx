@@ -129,7 +129,7 @@ export default function Contact() {
 
           {/* Info sidebar */}
           <div className={styles.infoSide}>
-            <p className={styles.bigNumber}>19</p>
+            <p className={styles.bigNumber}>{new Date().getFullYear() - 2003}</p>
             <p className={styles.bigLabel}>Años de experiencia</p>
 
             <div className={styles.contactList}>

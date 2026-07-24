@@ -11,7 +11,7 @@ export default function About() {
             <h2 className={styles.name}>Lina Rondón Daza</h2>
             <div className={styles.text}>
               <p>
-                Psicóloga Social con más de 19 años de experiencia especializada
+                Psicóloga con más de {new Date().getFullYear() - 2003} años de experiencia especializada
                 en atención psicosocial, evaluación del daño psicosocial y
                 construcción de paz en contextos de conflicto armado y
                 violaciones a los derechos humanos.

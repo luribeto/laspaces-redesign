@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | Las Paces',
   },
   description:
-    'Consultoría especializada en atención psicosocial, derechos humanos y construcción de paz. 19 años de experiencia en Colombia y México.',
+    'Consultoría especializada en atención psicosocial, derechos humanos y construcción de paz. 23 años de experiencia en Colombia.',
   keywords: [
     'psicología social',
     'derechos humanos',

@@ -22,13 +22,13 @@ export default function Hero() {
             <br />
             <em>paz</em> desde la
             <br />
-            psicología social
+            psicología
           </h1>
 
           <div className={styles.footerBar}>
             <p className={styles.description}>
-              19 años acompañando procesos de atención psicosocial, formación
-              especializada y construcción de paz en Colombia y México.
+              {new Date().getFullYear() - 2003} años acompañando procesos de atención psicosocial, formación
+              especializada y construcción de paz en Colombia.
             </p>
             <div className={styles.ctas}>
               <a href="#servicios" className={styles.btnEarth}>
